@@ -1,6 +1,11 @@
 import * as React from 'react';
 import './style.css';
 
+/*
+Challenge Statement:
+- Create An application that allows users to click anywhere on the screen to spawn a dot. Create functionality for undoing, redoing, and resetting the spawned circles.
+*/
+
 // Shapes
 interface Coordinate {
   x: number;
