@@ -1,0 +1,51 @@
+h1, p {
+  font-family: Lato;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  background-color: rgb(48, 43, 43);
+  height: 100vh;
+}
+
+.circle {
+  background-color: white;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  position: fixed;
+}
+
+.navigation {
+  background-color: black;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  padding: 4px;
+  position: relative;
+}
+
+button {
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  transition: 150ms ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(55, 172, 55);
+  color: white;
+}
+
+.count {
+  position: absolute;
+  color: white;
+  padding: 0;
+  margin: 0;
+  top: 5px;
+  left: 5px;
+}
